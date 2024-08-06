@@ -3,6 +3,7 @@
 #10.96.106.3:7777  is the grpc server ip and port
 #Values of other parameters can be provided as shown above
 
-./grpcurl -plaintext -d "{\"ranName\": \"gnb_311_048_0000000a\", \"rrmPolicy\": [{\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"01\", \"sd\" : \"020304\"}] , \"minPRB\" : 25, \"maxPRB\" : 85, \"dedPRB\" : 25} , {\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"02\", \"sd\" : \"030304\"}], \"minPRB\" : 35, \"maxPRB\" : 75, \"dedPRB\" : 25}, {\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"03\", \"sd\" : \"040304\"}], \"minPRB\" : 35, \"maxPRB\" : 80, \"dedPRB\" : 25}]}" 10.104.108.9:7777 rc.MsgComm.SendRRMPolicyServiceGrpc
+# ./grpcurl -plaintext -d "{\"ranName\": \"gnb_311_048_0000000a\", \"rrmPolicy\": [{\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"01\", \"sd\" : \"020304\"}] , \"minPRB\" : 25, \"maxPRB\" : 85, \"dedPRB\" : 25} , {\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"02\", \"sd\" : \"030304\"}], \"minPRB\" : 35, \"maxPRB\" : 75, \"dedPRB\" : 25}, {\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"03\", \"sd\" : \"040304\"}], \"minPRB\" : 35, \"maxPRB\" : 80, \"dedPRB\" : 25}]}" 10.108.17.48:7777 rc.MsgComm.SendRRMPolicyServiceGrpc
 
+./grpcurl -plaintext -d "{\"ranName\": \"gnb_734_373_16b8cef1\", \"rrmPolicy\": [{\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"01\", \"sd\" : \"020304\"}] , \"minPRB\" : 25, \"maxPRB\" : 85, \"dedPRB\" : 25} , {\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"02\", \"sd\" : \"030304\"}], \"minPRB\" : 35, \"maxPRB\" : 75, \"dedPRB\" : 25}, {\"member\": [{\"plmnId\" : \"311480\", \"sst\" : \"03\", \"sd\" : \"040304\"}], \"minPRB\" : 35, \"maxPRB\" : 80, \"dedPRB\" : 25}]}" 10.108.17.48:7777 rc.MsgComm.SendRRMPolicyServiceGrpc
 
